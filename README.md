@@ -1,5 +1,3 @@
-# CSS_Properties
-
 # To Implement all types of css properties
 In this project we have used HTML and CSS to demonstrate the use of various css properties without using a third party framework such as Bootstrap.
 We have used external css in this assignment
@@ -45,24 +43,24 @@ We have used css to demonstrate components such as navbar, properties for text s
 
 
 ## Output:
-1. Animations:
+## 1. Animations:
 
 
 https://user-images.githubusercontent.com/86312806/130043806-b6320125-4d6d-4860-bd34-a7caf4a8507b.mp4
 
-2. Text Styling:
+## 2. Text Styling:
 
 ![text](https://user-images.githubusercontent.com/86312806/130044107-f1f5e1cc-32b1-4ebb-b65a-1732fc32fbbe.png)
 
-3. Text Alignment:
+## 3. Text Alignment:
 
 ![text alignment](https://user-images.githubusercontent.com/86312806/130044173-4c3dd5ae-8fe9-406a-8605-79220b4251ea.png)
 
-4. Backgrounds:
+## 4. Backgrounds:
 
 ![background](https://user-images.githubusercontent.com/86312806/130044227-1446f82d-3f7d-4610-a6c4-08c0d857cf87.png)
 
-5. List Styling:
+## 5. List Styling:
 
 ![list styling](https://user-images.githubusercontent.com/86312806/130044258-899af368-91bf-4cdb-8357-d63f5121324c.png)
  
