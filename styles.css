@@ -1,0 +1,324 @@
+
+.navbar{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    margin: -8px;
+    padding: 0px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: rgb(38, 38, 59)
+}
+
+.navbar .active{
+    background-color: rgb(122, 127, 141);
+
+}
+
+.tc{
+    font-size: 25px;
+    
+    margin-right: 20px;
+}
+
+#tc1{
+    color: blue;
+    font-style: italic;
+}
+
+
+
+#tc2{
+    color: green;
+    font-weight: bold;
+}
+
+#tc3{
+    color: red;
+    text-decoration: underline;
+}
+
+#tc4{
+    color: teal;
+    text-decoration: overline;
+}
+
+#tc5{
+    color: violet;
+    text-decoration: line-through;
+}
+
+#tc6{
+    color: yellow;
+    text-decoration: underline dashed;
+}
+
+
+#b1{
+    border: solid green;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+}
+#b2{
+    border: dashed yellow;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+#b3{
+    border: dotted red;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+#b4{
+    border: double purple;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#b5{
+    border-style: groove;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#b6{
+    border-style: inset;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#b7{
+    border-style: outset;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#b8{
+    border-style: ridge;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.font{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+#f1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#f2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#f3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;
+}
+
+#f4{
+    font-family: cursive;
+}
+
+#f5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#f6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#f7{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#f8{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#ts1{
+    font-size: 20px;
+    text-shadow: 2px 2px red;
+    display: inline;
+    margin-right: 20px;
+}
+
+#ts2{
+    font-size: 20px;
+    text-shadow: 2px 2px 1px yellow;
+    display: inline;
+}
+
+.animation{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.animation#colorchange{
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+    0%{ background-color: red;}
+    50%{ background-color: blue}
+    100%{ background-color: red;}
+}
+
+.animation#colorchange2{
+    background-color: blueviolet;
+    animation-name: colorchange2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes colorchange2 {
+    0%{ background-color: blueviolet; left:0px}
+    25%{ background-color: aqua; left:500px; top:0px;}
+    50%{ background-color: yellow; left:500px; top:200px;}
+    75%{ background-color: green; left:0px; top:200px}
+    100%{ background-color: blueviolet; left:0px; top:0px}
+}
+
+.animation p{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+#fl1{
+    float: left;
+}
+
+#fl2{
+    float: right;
+}
+
+.align{
+    border: 3px solid green;
+}
+
+.align #center {
+    text-align: center;
+}
+
+.align #left {
+    text-align: left;
+}    
+
+.align #right {
+    text-align: right;
+}          
+
+.backgrounds #red{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.backgrounds #gold{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+}
+
+.backgrounds #aqua{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+
+.backgrounds #purple{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+}
+
+.backgrounds #blue{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.backgrounds #dollar{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url(coins.jpg);
+    background-size: cover;
+}
+
+.backgrounds #sky{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url(sky.jpeg);
+    background-size: cover;
+}
+
+.backgrounds #grass{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url(grass.png);
+    background-size: cover;
+}
+
+.backgrounds p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.list{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+#lsquare{
+    list-style-type: square;
+}
+
+#lcircle{
+    list-style-type: circle;
+}
+
+#lroman{
+    list-style-type: lower-roman;
+}
+
+#lalpha{
+    list-style-type: lower-alpha;
+}
